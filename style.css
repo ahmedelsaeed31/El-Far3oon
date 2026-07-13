@@ -730,31 +730,38 @@ box-shadow:0 15px 35px rgba(0,0,0,.4);
 
 }
 
-@media(max-width:768px){
+@media (max-width:768px){
 
-.floating-buttons{
-
-left:15px;
-
-bottom:20px;
-
+header{
+    height:70px;
+    padding:10px 15px;
+    flex-direction:row;
+    justify-content:space-between;
 }
 
-.floating-buttons a{
-
-width:55px;
-
-height:55px;
-
-font-size:25px;
-
+.logo img{
+    width:55px;
+    margin:0;
 }
 
+.logo h2{
+    font-size:22px;
 }
-footer a{
 
-color:#d8af52;
+.logo p{
+    display:none;
+}
 
-text-decoration:none;
+nav{
+    display:none;
+}
+
+.btn{
+    display:none;
+}
+
+.hero{
+    padding-top:70px;
+}
 
 }
